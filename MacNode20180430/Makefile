@@ -1,0 +1,5 @@
+COMPONENT=MacNodeAppC
+CFLAGS += -I$(TOSDIR)/lib/printf
+CFLAGS += -DRF230_DEF_CHANNEL=18
+include $(MAKERULES)
+
